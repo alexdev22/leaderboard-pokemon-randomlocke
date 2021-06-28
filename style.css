@@ -1,0 +1,9 @@
+th,
+td {
+  border-bottom: 2px solid orange;
+}
+
+.vidas {
+  color: rgb(255, 42, 42);
+  font-size: 25px;
+}
