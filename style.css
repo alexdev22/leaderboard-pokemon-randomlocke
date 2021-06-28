@@ -16,27 +16,23 @@ body {
   background: rgb(255, 255, 230);
 }
 
-.dark-mode {
+button {
   border: 0px;
   padding: 1rem;
   margin: 1rem;
-  background: rgb(75, 75, 75);
   font-weight: bold;
-  font-size: 18px;
   border-radius: 10px;
-  color: white;
   cursor: pointer;
+  font-size: 18px;
+}
+
+.dark-mode {
+  background: rgb(75, 75, 75);
+  color: white;
 }
 
 .dark-button {
-  border: 0px;
-  padding: 1rem;
-  margin: 0.5rem;
   background: white;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 10px;
-  cursor: pointer;
   color: #333;
 }
 
