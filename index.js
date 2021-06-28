@@ -1,7 +1,7 @@
-const healthbar = document.querySelectorAll(".vidas");
+const healthbar = document.querySelectorAll(".hearths");
 
-healthbar.forEach((vida) => {
-  vida.textContent = "❤".repeat(vida.textContent);
+healthbar.forEach((hearth) => {
+  hearth.textContent = "❤".repeat(hearth.textContent);
 });
 
 const daysDiv = document.querySelector("#days");
