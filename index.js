@@ -23,10 +23,10 @@ const countDown = () => {
   const minutes = Math.floor(totalSeconds / 60) % 24;
   const seconds = Math.floor(totalSeconds % 24);
 
-  daysDiv.textContent = days;
-  hoursDiv.textContent = hours;
-  secondsDiv.textContent = seconds;
-  minutesDiv.textContent = minutes;
+  daysDiv.textContent = days + "D :";
+  hoursDiv.textContent = hours + "H :";
+  minutesDiv.textContent = minutes + "M :";
+  secondsDiv.textContent = seconds + "S";
 };
 
 // Initial Call
