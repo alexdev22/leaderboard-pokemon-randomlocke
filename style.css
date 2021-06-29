@@ -18,6 +18,10 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.death {
+  text-align: center;
+  font-size: 20px;
+}
 .inicio {
   color: rgb(245, 245, 245);
   background: rgb(65, 65, 65);
