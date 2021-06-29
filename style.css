@@ -3,17 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 95vh;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.normas-body {
+  background: rgb(253, 253, 253);
+}
+.li-normas {
+  border: 1px solid rgb(182, 182, 182);
+  padding: 0.75rem;
+  list-style: none;
+}
+.normas-body h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+.normas-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  width: 100%;
+  color: #333;
+}
+.normas {
+  color: rgb(93, 93, 93);
+  background: white;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 25px;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -77,6 +110,13 @@ tr {
   margin-top: 2rem;
   text-align: center;
 }
+
+.normas-body {
+  color: white;
+  display: flex;
+  flex-direction: column;+
+ align-items:center;}
+  
 
 #hours,
 #days,
